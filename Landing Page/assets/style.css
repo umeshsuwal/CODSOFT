@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Oswald:wght@200..700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+header{
+    background: url(bg.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.logo{
+    font-size: 28px;
+    padding: 16px;
+    margin-left: 40px;
+}
+.logo:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.nav_list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+    font-size: 18px;
+    float: right;
+    padding-right: 50px;
+    margin-top: -40px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav_list a:hover{
+    text-decoration: none;
+    color: #00ffdd;
+}
+.header_content{
+    width: 550px;
+    padding: 18px;
+    margin-right: 80px;
+    margin-top: 108px;
+    font-size: 20px;
+    float: right;
+    font-family: "Oswald", sans-serif;
+}
+.header_content h2{
+    font-size: 32px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+}
+.read_btn {
+    background-color: #fa08e6; /* Green */
+    border: none;
+    border-radius: 28px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .read_btn:hover{
+    background-color: #fa08e67a;
+  }
+  .blogs{
+    background: #f1f1f1cb;
+    color: #000;
+    height: 700px;
+    margin-top: -18px;
+  }
+  .blogs h2{
+    text-align: center;
+    margin-bottom: -10px;
+    padding: 12px;
+  }
+  .swiper {
+    padding: 24px;
+    width: 90%;
+    height: 86%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    border-radius: 28px;
+    background: #ada4a450;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    opacity: 90%;
+  }
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -230px;
+    border-radius: 28px;
+}
+.swiper-slide h2{
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 2;
+}
+.swiper-slide:hover{
+  opacity: 100%;
+}
+.description{
+  color: #000;
+  position: absolute;
+  font-family: "Fredoka", sans-serif;
+  margin-top: 320px;
+  padding: 18px;
+  cursor: text;
+  z-index: 1;
+  height: 90px;
+  width: 90%;
+  overflow: hidden;
+}
+
+.read_btn2{
+  position: relative;
+  background-color: #fa08e6; /* Green */
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: -370px;
+  margin-top: 520px;
+  z-index: 2;
+}
+.read_btn2:hover{
+    background-color: #fa08e67a;
+}
+.photos {
+  margin-top: 10px;
+}
+.photos h2{
+  text-align: center;
+  font-size: 26px;
+  z-index: 2;
+  color: #000;
+}
+.imagerow {
+  padding: 32px;
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between; /* this will add equal space between each image */
+  z-index: 1;
+}
+.post-image {
+  height: 400px;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 6px;
+  cursor: zoom-in;
+}
+.post-image:active{
+  transform: scale(3);
+  transform-origin: center;
+  opacity: 96%;
+  border-radius: 8px;
+  cursor: zoom-out;
+}
+#Image1:active{
+  transform: scale(3);
+  transform-origin: left;
+}
+#Image3:active{
+  transform: scale(3);
+  transform-origin: right;
+}
+.festivals{
+  padding: 12px;
+  background: #f0eeee;
+  color: #000;
+}
+.festivals h2{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 26px;
+}
+.festival1 img{
+  width: 300px;
+  border-radius: 28px;
+  margin-left: 120px;
+}
+.festival1 .info{
+  width: 750px;
+  padding: 18px;
+  margin-right: 80px;
+  font-size: 18px;
+  float: right;
+  font-family: "Oswald", sans-serif;
+  margin-top: -40px;
+}
+.festival2{
+  margin-top: 50px;
+}
+.festival2 img{
+  width: 300px;
+  border-radius: 28px;
+  margin-left: 50px;
+}
+.festival2 .info{
+  width: 750px;
+  padding: 18px;
+  font-size: 18px;
+  margin-left: 110px;
+  float: left;
+  font-family: "Oswald", sans-serif;
+}
+.festival3{
+  margin-top: 50px;
+}
+.festival3 img{
+  width: 300px;
+  border-radius: 28px;
+  margin-left: 120px;
+}
+.festival3 .info{
+  width: 750px;
+  padding: 18px;
+  margin-right: 80px;
+  font-size: 18px;
+  float: right;
+  font-family: "Oswald", sans-serif;
+  margin-top: -40px;
+}
+.festival4{
+  margin-top: 50px;
+}
+.festival4 img{
+  width: 300px;
+  border-radius: 28px;
+  margin-left: 50px;
+}
+.festival4 .info{
+  width: 750px;
+  padding: 18px;
+  font-size: 18px;
+  margin-left: 110px;
+  float: left;
+  font-family: "Oswald", sans-serif;
+}
+.festival1 h2,.festival2 h2,.festival3 h2,.festival4 h2{
+  text-align: left;
+}
