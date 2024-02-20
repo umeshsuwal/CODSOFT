@@ -6,6 +6,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -32,36 +34,182 @@
         </section>
       </main>
     <img src="assets/img1.jpg" class="pp">
+    <img src="assets/arrow.webp" class="arrow">
     </div>
     
+    <div class="about" id="About">
 
+      <h2>About Me</h2>
+    <div class="about-section">
+      <p>
+        I am a Computer Science and IT student from Bhaktapur, Nepal. I am currently studying Bsc CSIT under Tribhuvan University. <br><br> I love to do web designing stuffs most of the time. I am also good at UI/UX designing.Creating Native apps. I love creating contents and present those in a creative way.
+      </p>
+    </div>
+      <div class="img-section">
+        <img src="assets/profile.jpg" alt="Profile">
+        <div class="main-img">
+        </div>
+      </div>
+    
 
-
+    </div>
 
     <div id="skills" class="skills">
         <h2>SKILLS</h2>
+
+        <div class="progressbar">
+            <p>HTML</p>
+<div class="skill-container">
+  <div class="myskills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="skill-container">
+  <div class="myskills css">80%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="skill-container">
+  <div class="myskills js">65%</div>
+</div>
+
+<p>Wordpress</p>
+<div class="skill-container">
+  <div class="myskills wordpress">60%</div>
+</div>
+        </div>
+
+        <div class="about-skill">
+            <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <h2>CSS3</h2>
+        <p>Cascading Style Sheets Level 3 (CSS3) is the iteration of the CSS standard used in the styling and formatting of Web pages. CSS3 incorporates the CSS2 standard with some changes and improvements.</p>
+      </div>
+      <div class="swiper-slide">
+        <h2>JavaScript</h2>
+        <p>JavaScript is a lightweight, interpreted programming language. It is designed for creating network-centric applications. It is complimentary to and integrated with Java. JavaScript is very easy to implement because it is integrated with HTML. It is open and cross-platform.</p>
+      </div>
+      <div class="swiper-slide">
+        <h2>Git</h2>
+        <p>Git allows and encourages you to have multiple local branches that can be entirely independent of each other. The creation, merging, and deletion of those lines of development takes seconds.</p>
+        </div>
+      <div class="swiper-slide">
+        <h2>Python</h2>
+        <p>Python is used for server-side web development, software development, mathematics, and system scripting, and is popular for Rapid Application Development and as a scripting or glue language to tie existing components because of its high-level, built-in data structures, dynamic typing, and dynamic binding.</p>
+      </div>
+      <div class="swiper-slide">
+        <h2>Github</h2>
+        <p>GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.</p>
+      </div>
+      <div class="swiper-slide">
+        <h2>PHP</h2>
+        <p>PHP is an open-source, server-side programming language that can be used to create websites, applications, customer relationship management systems and more. It is a widely-used general-purpose language that can be embedded into HTML.</p>
+      </div>
+      <div class="swiper-slide">
+        <h2>Bootstrap</h2>
+        <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+      </div>
+    </div>
+    <div class="autoplay-progress">
+      <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20"></circle>
+      </svg>
+      <span></span>
+    </div>
+  </div>
  
         <div class="icons">
             <div class="first">
-            <a href="#" class="icon-css"><i class="fa-brands fa-css3-alt"></i></a>
-            <a href="#" class="icon-js"><i class="fa-brands fa-square-js"></i></a>
+            <a href="https://css3.com/" class="icon-css"><i class="fa-brands fa-css3-alt"></i></a>
+            <a href="https://www.javascript.com/" class="icon-js"><i class="fa-brands fa-square-js"></i></a>
             </div><br>
             <div class="second">
-            <a href="#" class="icon-git"><i class="fa-brands fa-git-alt"></i></a>
-            <a href="#" class="icon-python"><i class="fa-brands fa-python"></i></i></a>
-            <a href="#" class="icon-github"><i class="fa-brands fa-github"></i></a>
+            <a href="https://git-scm.com/" class="icon-git"><i class="fa-brands fa-git-alt"></i></a>
+            <a href="https://www.python.org/" class="icon-python"><i class="fa-brands fa-python"></i></i></a>
+            <a href="https://github.com/" class="icon-github"><i class="fa-brands fa-github"></i></a>
             </div><br>
             <div class="third">
-            <a href="#" class="icon-php"><i class="fa-brands fa-php"></i></a>
-            <a href="#" class="icon-bootstrap"><i class="fa-brands fa-bootstrap"></i></a>
+            <a href="https://www.php.net/" class="icon-php"><i class="fa-brands fa-php"></i></a>
+            <a href="https://getbootstrap.com/" class="icon-bootstrap"><i class="fa-brands fa-bootstrap"></i></a>
             </div>
         </div>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+      <h2>PROJECTS</h2>
+
+      <div class="showcase">
+          <div class="project-main">
+            <img src="assets/project1.jpg" alt="Project 1">
+                <h2>Landing Page</h2>
+                <div class="live">
+                  <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                </div>
+                <div class="description">
+                <p class="second">" I've created this Landing Page using HTML and CSS. There are still many more things that should added on this page. I plan to add further more on this page later. "</p>
+                </div>
+                <a href="#"><button class="read_btn2">View Demo <i class="fa-solid fa-eye"></i></button></a>
+          </div>
+          <div class="project-main">
+            <img src="assets/project2.jpg" alt="Project 2">
+                <h2>Project 2</h2>
+                <div class="live">
+                  <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                </div>
+                <div class="description">
+                <p class="second">" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ipsum quasi molestias necessitatibus neque deserunt excepturi unde eum a ad asperiores sint, optio hic labore, in modi, ducimus porro officia. "</p>
+                </div>
+                <a href="#"><button class="read_btn2">View Demo <i class="fa-solid fa-eye"></i></button></a>
+          </div>
+          <div class="project-main">
+            <img src="assets/project3.png" alt="Project 3">
+                <h2>My Dreams</h2>
+                <div class="live">
+                  <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                </div>
+                <div class="description">
+                <p class="second">" What are my Dreams? I always try to imagine it. Was to to be happy or Was it to be good ? Well, I'm stucked between What,How,Who,When and Where .. "</p>
+                </div>
+                <a href="#"><button class="read_btn2">View Demo <i class="fa-solid fa-eye"></i></button></a>
+          </div>
+      </div>
 
     </div>
 
-
-
-    <div id="contact">
+    <div id="contact" class="contact">
+      <img src="assets/contact.jpg" alt="Astronaut with Guitar">
+      <form>
+        <h1 class="title text-center mb-4">Connect With Me</h1>
+    
+          <!-- Name -->
+          <div class="form-group position-relative">
+            <label for="formName" class="d-block">
+              <i class="fa-solid fa-user"></i>
+            </label>
+            <input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Name">
+          </div>
+    
+          <!-- E-mail -->
+          <div class="form-group position-relative">
+            <label for="formEmail" class="d-block">
+              <i class="fa-solid fa-envelope"></i>
+            </label>
+            <input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail">
+          </div>
+    
+          <!-- Message -->
+          <div class="form-group message">
+            <textarea id="formMessage" class="form-control form-control-lg" rows="7" placeholder="Your Message Here"></textarea>
+          </div>
+        
+          <!-- Submit btn -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary" tabIndex="-1">Send message </button>
+          </div>
+      </form>
     <footer>
         <svg viewBox="0 0 120 28">
          <defs> 
@@ -114,5 +262,28 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/3e5b540335.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+         <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      loop: true,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+      on: {
+        autoplayTimeLeft(s, time, progress) {
+          progressCircle.style.setProperty("--progress", 1 - progress);
+          progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        }
+      }
+    });
+  </script>
 </body>
 </html>
