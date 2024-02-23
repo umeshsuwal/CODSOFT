@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Namdhinggo:wght@400;500;600;700;800&family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #474a4d;
+    font-family: sans-serif;
+    outline: none;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: #ecf0f3;
+    padding: 18px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,66px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: #ecf0f3a9;
+    box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px rgba(0, 0, 0,.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(70,70,70);
+    font-size: 40px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: "Anta", sans-serif;
+}
+button{
+    height: 54px;
+    width: 54px;
+    background-color: #ecf0f3d0;
+    box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0,.16);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 16px;
+    font-family: "Namdhinggo", serif;
+    font-weight: 700;
+}
+.equal{
+    width: 118px;
+    border-radius: 40px;
+    background-color: #06c1fadc;
+    box-shadow: -5px -5px 12px #ffffff,5px 5px 12px rgba(0, 0, 0,.16);
+    font-family: "Anta", sans-serif;
+    font-weight: 700;
+}
+.delete{
+    background-color: #ff0000d2;
+}
+.clear{
+    background-color: #d81616ef;
+}
+.model{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -460px;
+    font-size: 14px;
+}
+.model h3{
+    background-color: #ecf0f3;
+    font-family: "Namdhinggo", serif;
+}
